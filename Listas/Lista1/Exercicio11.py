@@ -1,0 +1,5 @@
+nome = (input("Qual é o seu nome? "))
+nome = nome.upper()
+letras = len(nome)
+print(nome)
+print(f"Bem vindo {nome}, seu nome tem {letras} letras")
